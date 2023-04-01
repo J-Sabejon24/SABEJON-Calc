@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="styling.css">
+
+    <!-- TITLE OF THE DOCUMENT -->
+    <title>SABEJON SIMPLE CALCULATOR</title>
+
+</head>
+<body>
+
+    <br>
+    <br>
+
+    <!-- CALCULATOR BOX -->
+    <div class="calculatorBox">
+
+        <!-- TITLE        -->
+        <h1>SABEJON SIMPLE CALCULATOR</h1>
+
+        <!-- HORIZONTAL LINE -->
+        <hr width = "300px" color="white"> 
+        <br>
+
+        <!-- ENTER OPERATOR -->
+        <label for="OPTR">ENTER OPERATOR: <br> </label>
+        <input type="text" id="OPTR">
+
+        <br>
+        <br>
+
+        <!-- ENTER FIRST NUMBER -->
+        <label for="numberOne">FIRST NUMBER: <br> </label>
+        <input type="text" id="numberOne">
+
+        <br>
+        <br>
+
+        <!-- ENTER SECOND NUMBER -->
+        <label for="numberTwo">SECOND NUMBER: <br> </label>
+        <input type="text" id="numberTwo"> 
+
+        <br>
+        <br>
+
+        <!-- RESULT BUTTON -->
+        <button id="BTTN" onclick="calculator()"> RESULT </button>
+
+        <br>
+        <br>
+        <br>
+        
+        <!-- HORIZONTAL LINE -->
+        <hr width = "200px" color="white"> 
+
+        <!-- ANSWER BOX -->
+        <h2>ANSWER <br> <span id="ANSWER"> </span></h2>
+        <br>
+    </div>
+
+    <!-- MY FUNCTIONS -->
+    <script src="functions.js"></script>
+
+</body>
+</html>
